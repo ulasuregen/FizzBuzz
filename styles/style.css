@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    height: 300px;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+#getInput{
+    width: 100px;
+    height: 40px;
+    background-color: rgb(220, 143, 143);
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+#getInput:hover{
+    background-color: rgb(128, 206, 128);
+}
